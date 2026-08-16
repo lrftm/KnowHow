@@ -1,6 +1,6 @@
 <div align="center">
 
-# 知其然 · ZhiQiRan
+# 知其然 · KnowHow
 
 ### AI 苏格拉底式自适应学习助手
 
@@ -10,7 +10,6 @@
 [![Platform](https://img.shields.io/badge/platform-Dify-6366f1.svg)](https://dify.ai)
 [![Model](https://img.shields.io/badge/model-DeepSeek--V4-green.svg)](https://deepseek.com)
 [![RAG](https://img.shields.io/badge/RAG-Hybrid_Search-orange.svg)]()
-[![Competition](https://img.shields.io/badge/赛事-四川智能体大赛2025-red.svg)]()
 
 </div>
 
@@ -18,7 +17,7 @@
 
 ## 项目简介
 
-**知其然**是一个基于大语言模型的苏格拉底式 AI 学习助手，专为 AI/ML 领域的自学者设计。
+**知其然**是一个基于大语言模型的苏格拉底式 AI 学习助手，专为自学者设计。
 
 与传统 AI 问答（"问 → 答"）不同，本项目核心理念是：**引导用户通过自主思考得出结论，而不是直接给出答案**。系统通过持续追问，帮助用户建立真正的概念理解，而不是表面的知识记忆。
 
@@ -107,18 +106,13 @@ AI：很准！那我追问你：如果 AI 不知道这些私有数据，
 
 ## 已知局限与复赛规划
 
-| 限制 | 当前状态 | 复赛方案 |
+| 限制 | 当前状态 | 未来规划 |
 |------|---------|---------|
 | 教师风格差异度 | 依赖 Prompt，差异有限 | Few-shot 示例注入 / LoRA 微调 |
 | 学习记录持久化 | 仅限单次会话 | 引入外部数据库存储学习轨迹 |
 | 教师动态扩展 | 需手动修改提示词 | 教师档案知识库 + 动态变量注入 |
 | 技术实现层 | Dify 低代码平台 | LangChain / LangGraph 代码重写 |
 
-## 参赛信息
-
-- **赛事**：2025 四川智能体大赛
-- **赛题**：教育领域 AI Agent 应用
-- **阶段**：初赛提交版本
 
 ## License
 
